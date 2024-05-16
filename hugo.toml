@@ -1,0 +1,162 @@
+baseURL = "https://bashreality.com/"
+title = "Bash Reality"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+#googleAnalytics = "G-XXXXXXXXXX"
+
+[params]
+fancyTitle = "Bash Reality" # title for frontpage, may include image
+copyright = "Albert Milewski"
+description = 'Linux insights <br/> Docker mastery <br/>IT security revelations'
+startbuttonText = "Bash IT"
+startbuttonLink = "https://wiki.bashreality.com"
+body_is_markdown = false
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Explore cutting-edge techniques and expand your expertise in Linux, Docker, and security'
+body = '''
+Join our community to stay ahead in the fast-evolving IT landscape
+'''
+
+[[params.one.icon]]
+icon = "solid fa-shield-halved"
+style = "1"
+url = "https://www.cvedetails.com/vulnerability-list/published_since-last7days/"
+
+[[params.one.icon]]
+icon = "solid fa-code-branch"
+style = "2"
+url = "https://github.com/bashreality"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+url = "https://wiki.bashreality.com"
+
+[params.two]
+enable = false
+
+[[params.two.section]]
+img = "img/docker.png"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Tortor dolore feugiat<br />elementum magna'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Tortor dolore feugiat<br />elementum magna'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+
+[params.three]
+enable = true
+title = 'About Me'
+body = '''
+A 27-year-old Linux enthusiast and Head of the IT Security and Administration Department, I am committed to advancing cybersecurity measures and streamlining IT infrastructure. My role focuses on developing strategic solutions that enhance data protection and improve system reliability across all operational levels.
+'''
+
+[[params.three.feature]]
+icon = "solid fa-terminal"
+title = "Bash Scripting"
+body = "Developing advanced Bash scripts, I enhance system efficiency by automating repetitive tasks and streamlining data processing and system integration workflows. These scripts optimize operations across various platforms, ensuring seamless interactions and rapid deployment of system updates."
+
+[[params.three.feature]]
+icon = "solid fa-magnifying-glass"
+title = "Server Monitoring"
+body = "I oversee server monitoring with Zabbix for optimal performance and stability. This involves managing server health and performance metrics for swift issue resolution. Alerts quickly notify the IT team of critical issues, ensuring rapid responses. Regular reviews with Zabbix data facilitate resource scaling to support business growth without compromising security."
+
+[[params.three.feature]]
+icon = "solid fa-shield"
+title = "Data Security Management"
+body = "I oversee data security strategies, including encryption, access controls, and comprehensive security policies to protect sensitive information. Additionally, I design and manage robust backup procedures that ensure data resilience and continuity in the event of data loss, providing a secure framework for data recovery."
+
+[[params.three.feature]]
+icon = "solid fa-gears"
+title = "Ansible Automation"
+body = "Utilizing Ansible, I focus on automating configuration, management, and deployment of applications across servers. My work includes creating playbooks that standardize environments and reduce manual intervention, enhancing consistency and reliability in server setups and software deployments."
+
+[[params.three.feature]]
+icon = "solid fa-server"
+title = "Server Maintenance"
+body = "I manage server infrastructure maintenance, ensuring high availability and reliability of physical, virtual, and cloud servers essential for business operations. My role includes routine updates, security patches, kernel tuning, network configuration, and system optimization to boost performance. I oversee multiple Windows and Linux servers, ensuring they are secure, up-to-date, and configured according to best practices."
+
+[[params.three.feature]]
+icon = "solid fa-network-wired"
+title = "Networking"
+body = "I manage network using FortiGate tools, enhancing security through a suite of features. Firewall monitors all network traffic to prevent cyber threats, while the Intrusion Prevention System proactively stops attacks based on known patterns. I also oversee Virtual Private Networking (VPN) for secure remote access and implement Web Filtering to control internet usage according to organizational policies."
+
+[params.cta]
+enable = false
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = false
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "bashreality@proton.me"
+subject = "New Submission!"
+formspree_form_id = "myyrvwrr"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = "https://www.youtube.com/watch?v=Uq9gPaIzbe8"
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
